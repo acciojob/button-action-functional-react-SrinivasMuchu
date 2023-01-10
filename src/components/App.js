@@ -8,7 +8,7 @@ function App() {
   };
   return (
     <div id="main">
-      {paragraph ? <p className="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : ""}
+      {paragraph ?  "":<p className="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
       <button className="click" onClick={Btn}>Paragraph</button>
     </div>
   );
